@@ -1,0 +1,13 @@
+prefix=/Users/yeonjin/Documents/anaconda/MidtermExam_2314531
+exec_prefix=/Users/yeonjin/Documents/anaconda/MidtermExam_2314531
+libdir=/Users/yeonjin/Documents/anaconda/MidtermExam_2314531/lib
+sharedlibdir=/Users/yeonjin/Documents/anaconda/MidtermExam_2314531/lib
+includedir=/Users/yeonjin/Documents/anaconda/MidtermExam_2314531/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
